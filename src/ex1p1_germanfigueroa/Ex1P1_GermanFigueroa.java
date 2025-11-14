@@ -39,10 +39,10 @@ public class Ex1P1_GermanFigueroa {
         String palabra = entrada.next();
         System.out.println("Ingrese la palabra a reemplazar: ");
 
-        for (int i = 0; i < cadena.length() - 1; i += 1) {
+        for (int i = 0; i < cadena.length() - 1; i ++) {
             char caracter = cadena.charAt(i);
             char nuevoCaracter = cadena.charAt(i);
-            char acumuladorCadena += acumuladorCadena + nuevoCaracter;
+            char acumuladorCadena = cadena.charAt(i);
         }
         return "";
     }
@@ -59,11 +59,10 @@ public class Ex1P1_GermanFigueroa {
         int asteriscos = 0;
         int espacios = (numero/2);
         for(int j = 0; j <= numero; j += 1 ){
-            for(int  = 0; j = espacios; j += 1){
-                
+            for(int k = 0; k = espacios; k += 1){
+                System.out.println(" ");
             }
         }
-
     }
         
     public static boolean isAnagram(String cadena1, String cadena2){
@@ -79,7 +78,6 @@ public class Ex1P1_GermanFigueroa {
         return true;
     }
     
-}
 
 
 
