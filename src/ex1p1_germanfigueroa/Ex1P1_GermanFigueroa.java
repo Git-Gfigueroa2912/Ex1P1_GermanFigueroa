@@ -41,8 +41,8 @@ public class Ex1P1_GermanFigueroa {
 
         for (int i = 0; i < cadena.length() - 1; i += 1) {
             char caracter = cadena.charAt(i);
-            int caracterAscii = (int)
-            char acumuladorCadena += acumuladorCadena + 
+            char nuevoCaracter = cadena.charAt(i);
+            char acumuladorCadena += acumuladorCadena + nuevoCaracter;
         }
         return "";
     }
@@ -59,7 +59,9 @@ public class Ex1P1_GermanFigueroa {
         int asteriscos = 0;
         int espacios = (numero/2);
         for(int j = 0; j <= numero; j += 1 ){
-            for(int i2 = 0; i2 = espacios; i2 += 1){
+            for(int  = 0; j = espacios; j += 1){
+                
+            }
         }
 
     }
