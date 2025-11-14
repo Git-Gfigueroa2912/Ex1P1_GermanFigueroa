@@ -60,7 +60,7 @@ public class Ex1P1_GermanFigueroa {
         int espacios = (numero/2);
         for(int j = 0; j <= numero; j += 1 ){
             for(int k = 0; k = espacios; k += 1){
-                System.out.println(" ");
+                 System.out.println(" ");
             }
         }
     }
